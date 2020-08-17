@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Calculadora JS</title>
+</head>
+<body>
+    <h1>Calculadora JavaScript</h1>
+    <div class="corpo">
+        <div class="tela2" id="tela2"></div>
+        <div class="tela1" id="tela1"></div>
+        <div class="blocoBotoes">
+            <input type="button" id="ac" class="botao" value="AC" onclick="limpar()">
+            <input type="button" id="ac" class="botao" value="+/-" onclick="troca()">
+            <input type="button" id="ac" class="botao" value="%" onclick="leOpBasica('%')">
+            <input type="button" id="ac" class="botao c" value="÷" onclick="leOpBasica('/')">
+            <input type="button" id="ac" class="botao" value="7" onclick="lerNum(7)">
+            <input type="button" id="ac" class="botao" value="8" onclick="lerNum(8)">
+            <input type="button" id="ac" class="botao" value="9" onclick="lerNum(9)">
+            <input type="button" id="ac" class="botao c" value="X" onclick="leOpBasica('x')">
+            <input type="button" id="ac" class="botao" value="4" onclick="lerNum(4)">
+            <input type="button" id="ac" class="botao" value="5" onclick="lerNum(5)">
+            <input type="button" id="ac" class="botao" value="6" onclick="lerNum(6)">
+            <input type="button" id="ac" class="botao c" value="-" onclick="leOpBasica('-')">
+            <input type="button" id="ac" class="botao" value="1" onclick="lerNum(1)">
+            <input type="button" id="ac5" class="botao" value="2" onclick="lerNum(2)">
+            <input type="button" id="ac4" class="botao" value="3" onclick="lerNum(3)">
+            <input type="button" id="ac3" class="botao c" value="+" onclick="leOpBasica('+')">      
+            <input type="button" id="zero" class="botao" value="0" onclick="lerNum(0)">
+            <input type="button" id="ac1" class="botao" value="." onclick="addPonto()">
+            <input type="button" id="" class="botao c" value="=" onclick="valorResultado()"> 
+        </div>
+    </div>
+    <h3>© 2020 👉Vitor Roatti</a>👈</h3>
+    <script src="calculadora.js"></script>
+</body>
+</html>
